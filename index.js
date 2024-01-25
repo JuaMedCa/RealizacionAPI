@@ -11,7 +11,7 @@ server.put("/:numero", (req,res) => {
 })
 server.delete("/:index",(req,res) =>{
     numberarray.splice(req.params,index,1)
-    res,json("Elemento Borrado")
+    res,json("Borrado")
 
 
 })
